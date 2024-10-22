@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.llama-image{
+    width: 30%;
+    margin-top: -3%;
+    margin-bottom: 30px;
+}
+
+.app-container {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    max-width: 800px;
+    width: 100%;
+}
+
+form input {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+
+form button {
+    padding: 10px;
+    border: none;
+    background-color: #6923e1;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #8600b3;
+}
+
+.task {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task input {
+    margin-right: 10px;
+}
+
+.task button {
+    text-decoration: none;
+    padding: 5px 10px;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.task button:hover {
+    background-color: darkred;
+}
