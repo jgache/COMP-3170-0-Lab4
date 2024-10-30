@@ -14,7 +14,7 @@ function TaskList({ tasks, toggleComplete, deleteTask }) {
                     />
                 ))
             ) : (
-                <p>Good Boy! No More Tasks!!!</p>
+                <p>Good Boy! </p>
             )}
         </div>
     );

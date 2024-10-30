@@ -32,14 +32,9 @@ function App() {
   };
 
   return (
-      <div className="app-container">
-          <h1>To-Do List V2</h1>
+      <div className="app">
+          <h1>Task Planner</h1>
           <TaskForm addTask={addTask} />
-          <img
-          src="https://upload.wikimedia.org/wikipedia/commons/d/df/Lama_glama_5zz.jpg"
-          alt="Llama"
-          className="llama-image"
-        />
 
           {/* Filter Buttons */}
           <div>

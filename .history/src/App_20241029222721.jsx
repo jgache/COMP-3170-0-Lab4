@@ -32,7 +32,7 @@ function App() {
   };
 
   return (
-      <div className="app-container">
+      <div className="app">
           <h1>To-Do List V2</h1>
           <TaskForm addTask={addTask} />
           <img
